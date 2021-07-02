@@ -1,0 +1,78 @@
+.App {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+ 
+  h3 {
+    text-align: left;
+  }
+  
+  .topping {
+    margin-top: 0.3rem;
+    vertical-align: text-bottom;
+  }
+  
+  .result {
+    margin-top: 1rem;
+  }
+  
+  .toppings-list {
+    margin: 0 auto;
+    text-align: left;
+    columns: 3;
+    
+  }
+
+  li 
+  {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .toppings-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .toppings-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .toppings-list-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .toppings-list-item label {
+    vertical-align: text-bottom;
+    margin-left: 0.2rem;
+  }
+  
+  .total {
+    margin-top: 1rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .toppings-list,
+    .total {
+      width: 90%;
+    }
+  }
+
+  .scrollable-div{
+		height:200px;
+		width:800px;
+    overflow-y:auto
+  }
+
+  .scrollable-div-ingredients{
+		height:800px;
+		width:800px;
+    overflow-y:auto
+  }
+
+  div {
+    white-space: pre-wrap;
+  }

@@ -1,0 +1,88 @@
+{
+    "menu": [
+        {
+            "menuName": "Chicken Korma",
+            "isVegetarian": false,
+            "ingredients": [
+                {
+                    "item": "chicken breast",
+                    "quantity": 2
+                },
+                {
+                    "item": "ginger",
+                    "quantity": 1
+                },
+                {
+                    "item": "single create",
+                    "quantity": 1
+                },
+                {
+                    "item": "oninon",
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "menuName": "Haddock Couscous",
+            "isVegetarian": false,
+            "ingredients": [
+                {
+                    "item": "haddock",
+                    "quantity": 1
+                },
+                {
+                    "item": "spring oninon",
+                    "quantity": 1
+                },
+                {
+                    "item": "red pepper",
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "menuName": "Haddock Mash",
+            "isVegetarian": false,
+            "ingredients": [
+                {
+                    "item": "haddock",
+                    "quantity": 1
+                },
+                {
+                    "item": "red oninon",
+                    "quantity": 1
+                },
+                {
+                    "item": "tomato",
+                    "quantity": 3
+                },
+                {
+                    "item": "potato",
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "menuName": "Veg Tagine",
+            "isVegetarian": true,
+            "ingredients": [
+                {
+                    "item": "orange",
+                    "quantity": 1
+                },
+                {
+                    "item": "courgette",
+                    "quantity": 1
+                },
+                {
+                    "item": "carrot",
+                    "quantity": 2
+                },
+                {
+                    "item": "leek",
+                    "quantity": 1
+                }
+            ]
+        }
+    ]
+}
