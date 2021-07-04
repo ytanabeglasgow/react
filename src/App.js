@@ -9,7 +9,7 @@ export default function App() {
         new Array(menu.length).fill(false)
     );
 
-    const [ingredients, setIngredients] = useState(new Object());
+    const [ingredients, setIngredients] = useState({});
 
     const [countSelected, setCountSelected] = useState(0);
 
@@ -21,7 +21,7 @@ export default function App() {
         setCheckedState(updatedCheckedState);
         setCountSelected(updatedCheckedState[position] ? countSelected + 1 : countSelected - 1);
 
-        const newIngredients = new Object(ingredients);
+        const newIngredients =new Object(ingredients);
         const selectedMenu = menu[position];
 
         //for each ingredient in the  menu
